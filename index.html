@@ -10,84 +10,93 @@
 
   <body>
     <div class="container">
-      <h1>Flashcards!</h1>
-      <h2>Please click on a name to reveal the definition.</h2>
+      <div class="jumbotron">
+        <h1>Flashcards!</h1>
+        <h2>Please click on a name to reveal the definition.</h2>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
 
-      <div id="list1">
-        <p id="click1" class="clickable">JavaScript (JS)</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list2">
-        <p id="click2" class="clickable">Operators</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list3">
-        <p id="click3" class="clickable">Variables</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list4">
-        <p id="click4" class="clickable">Variable naming conventions</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list5">
-        <p id="click5" class="clickable">Functions</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list6">
-        <p id="click6" class="clickable">Methods</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list7">
-        <p id="click7" class="clickable">Arguments</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list8">
-        <p id="click8" class="clickable">Parameters</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list9">
-        <p id="click9" class="clickable">Return</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list10">
-        <p id="click10" class="clickable">Chaining methods</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list11">
-        <p id="click11" class="clickable">Strings</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list12">
-        <p id="click12" class="clickable">Booleans</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list13">
-        <p id="click13" class="clickable">Undefined</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list14">
-        <p id="click14" class="clickable">NaN</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list15">
-        <p id="click15" class="clickable">Escape</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list16">
-        <p id="click16" class="clickable">Alert</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list17">
-        <p id="click17" class="clickable">Comments</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list18">
-        <p id="click18" class="clickable">jQuery</p>
-        <span class="myDef">Definition</span>
-      </div>
-      <div id="list19">
-        <p id="click19" class="clickable">Attributes</p>
-        <span class="myDef">Definition</span>
+          <div class="well" id="list1">
+            <button type="button" class="btn btn-primary btn-lg active" id="click1" class="clickable">JavaScript (JS)</button><br>
+            <span class="myDef">is a high-level, dynamic, untyped, and interpreted programming language. It has been standardized in the ECMAScript language specification.</span>
+          </div>
+          <div class="well" id="list2">
+            <button type="button" class="btn btn-primary btn-lg active" id="click2" class="clickable">Operators</button><br>
+            <span class="myDef">+, -, *, /, and % are called operators. An operator is a special character (or characters) that indicates an action to be performed.</span>
+          </div>
+          <div class="well" id="list3">
+          <button type="button" class="btn btn-primary btn-lg active" id="click3" class="clickable">Variables</button><br>
+            <span class="myDef">Variables can be thought of as containers used to store information. They allow for a way to label data with a descriptive name.</span>
+          </div>
+          <div class="well" id="list4">
+            <button type="button" class="btn btn-primary btn-lg active" id="click4" class="clickable">Naming conventions</button><br>
+            <span class="myDef">Example: Lower camel case: Use lowerCamelCase when naming JavaScript variables. Start with a lowercase letter, and if the variable name is more than one word, remove all spaces and capitalize the first letter of each subsequent word.</span>
+          </div>
+          <div class="well" id="list5">
+            <button type="button" class="btn btn-primary btn-lg active" id="click5" class="clickable">Functions</button><br>
+            <span class="myDef">A function is a block of code that performs an action and returns a result; optionally takes arguments</span>
+          </div>
+          <div class="well" id="list6">
+            <button type="button" class="btn btn-primary btn-lg active" id="click6" class="clickable">Methods</button><br>
+            <span class="myDef"> A method is an action run on a piece of data; you can think of it as a message you send to a piece of data, and the result is the response.</span>
+          </div>
+          <div class="well" id="list7">
+            <button type="button" class="btn btn-primary btn-lg active" id="click7" class="clickable">Arguments</button><br>
+            <span class="myDef">Some methods take one or more arguments that provide the method with additional information to help it perform its action.</span>
+          </div>
+          <div class="well" id="list8">
+            <button type="button" class="btn btn-primary btn-lg active" id="click8" class="clickable">Parameters</button><br>
+            <span class="myDef">is a variable that's assigned to the argument</span>
+          </div>
+          <div class="well" id="list9">
+            <button type="button" class="btn btn-primary btn-lg active" id="click9" class="clickable">Return</button><br>
+            <span class="myDef">The return value is the method's response.</span>
+          </div>
+          <div class="well" id="list10">
+            <button type="button" class="btn btn-primary btn-lg active" id="click10" class="clickable">Chaining methods</button><br>
+            <span class="myDef">Calling a method directly on the return value of another method.</span>
+          </div>
+        </div>
+
+        <div class="col-md-6">
+          <div class="well" id="list11">
+            <button type="button" class="btn btn-primary btn-lg active" id="click11" class="clickable">Strings</button><br>
+            <span class="myDef">a JavaScript data type that represents the exact text of whatever is enclosed in the quotes</span>
+          </div>
+          <div class="well" id="list12">
+            <button type="button" class="btn btn-primary btn-lg active" id="click12" class="clickable">Booleans</button><br>
+            <span class="myDef">true and false are booleans. They are not strings - they simply represent being true or false.</span>
+          </div>
+          <div class="well" id="list13">
+            <button type="button" class="btn btn-primary btn-lg active" id="click13" class="clickable">Undefined</button><br>
+            <span class="myDef">An object (such as a variable) without a defined value.</span>
+          </div>
+          <div class="well" id="list14">
+            <button type="button" class="btn btn-primary btn-lg active" id="click14" class="clickable">NaN</button><br>
+            <span class="myDef">Not a number</span>
+          </div>
+          <div class="well" id="list15">
+            <button type="button" class="btn btn-primary btn-lg active" id="click15" class="clickable">Escape</button><br>
+            <span class="myDef">The escape() function encodes a string. This function makes a string portable, so it can be transmitted across any network to any computer that supports ASCII characters.</span>
+          </div>
+          <div class="well" id="list16">
+            <button type="button" class="btn btn-primary btn-lg active" id="click16" class="clickable">Alert</button><br>
+            <span class="myDef">Displays an alert box</span>
+          </div>
+          <div class="well" id="list17">
+            <button type="button" class="btn btn-primary btn-lg active" id="click17" class="clickable">Comments</button><br>
+            <span class="myDef">anything following // on a line in JavaScript is ignored by the computer. Comments are a convenient way to leave notes in your code for yourself or other programmers.</span>
+          </div>
+          <div class="well" id="list18">
+            <button type="button" class="btn btn-primary btn-lg active" id="click18" class="clickable">jQuery</button><br>
+            <span class="myDef">A library</span>
+          </div>
+          <div class="well" id="list19">
+            <button type="button" class="btn btn-primary btn-lg active" id="click19" class="clickable">Attributes</button><br>
+            <span class="myDef">Provides additional information about an element</span>
+          </div>
+        </div>
       </div>
     </div>
   </body>
