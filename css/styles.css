@@ -15,11 +15,14 @@
   text-decoration: underline;
 }
 
-.clickable2 {
-  cursor: pointer;
-  color: #0088cc;
+.makeRed {
+  color: red;
 }
 
-.clickable2:hover {
-  text-decoration: underline;
+.myDef {
+  display: none;
+}
+
+.showDef {
+  display:inline;
 }
